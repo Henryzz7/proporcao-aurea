@@ -1,0 +1,41 @@
+body {
+    display: block;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+#base {
+    place-self: center;
+    height: 309px;
+    width: 500px;
+    background-color: black;
+}
+
+#ret1 {
+    place-self: end;
+    width: 191px;
+    height: 309px;
+    background-color: aqua;
+}
+
+#ret2 {
+    position: relative;
+    bottom: 118px;
+    place-self: end;
+    width: 191px;
+    height: 118px;
+    background-color: brown;
+}
+
+#ret3 {
+    width: 72px;
+    height: 118px;
+    background-color: blue;
+    position: relative;
+    bottom: 236px;
+    place-self: end;
+    right: 119px;
+}
